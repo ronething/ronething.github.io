@@ -124,7 +124,7 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar:
+avatar: https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190516230757.png
 
 top_img: true # false or url of img
 
@@ -135,7 +135,7 @@ post_meta:
 
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/additional-package-support?id=word-counting
 wordcount:
-  enable: false
+  enable: true
 
 toc:
   enable: true
