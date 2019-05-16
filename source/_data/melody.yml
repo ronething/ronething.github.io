@@ -2,16 +2,17 @@
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00C4B6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00C4B6"
-#   link_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   tag_start_color: "#A4D8FA"
-#   tag_end_color: "#1B9EF3"
+theme_color:
+  enable: true
+  main: "#000"
+  paginator: "#000"
+  # button_hover: "#000"
+  text_selection: "#000"
+  link_color: "#000"
+  hr_color: "#000"
+  meta_color: "#000"
+  tag_start_color: "#000"
+  # tag_end_color: "#1B9EF3"
 
 # Main menu navigation
 menu:
@@ -126,7 +127,8 @@ cdn:
 # ---------------
 avatar: https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190516230757.png
 
-top_img: true # false or url of img
+# false or url of img
+top_img: https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190517000110.png
 
 post_meta:
   date_type: created # created or updated
