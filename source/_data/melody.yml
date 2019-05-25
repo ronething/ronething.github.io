@@ -142,7 +142,7 @@ wordcount:
 
 toc:
   enable: true
-  # number: true
+  number: false
 
 post_copyright:
   enable: true
