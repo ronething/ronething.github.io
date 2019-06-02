@@ -6,11 +6,12 @@ type: "sources"
 
 ## `2019年6月2日`
 
-[语义化版本 2.0.0](https://semver.org/lang/zh-CN/)
+- [语义化版本 2.0.0](https://semver.org/lang/zh-CN/)
+- [python3 cookbook](https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
 
 ## `2018年1月10日`
 
-[数学公式在线编辑器](http://latex.codecogs.com/eqneditor/editor.php)
+- [数学公式在线编辑器](http://latex.codecogs.com/eqneditor/editor.php)
 
 ## `2017-12-26`
 
