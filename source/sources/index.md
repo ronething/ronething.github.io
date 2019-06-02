@@ -8,6 +8,7 @@ type: "sources"
 
 - [语义化版本 2.0.0](https://semver.org/lang/zh-CN/)
 - [python3 cookbook](https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
+- [Ubuntu Basic Skill](http://samwhelp.github.io/book-ubuntu-basic-skill/book/index.html)
 
 ## `2018年1月10日`
 
