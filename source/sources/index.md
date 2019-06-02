@@ -4,6 +4,10 @@ date: 2019-05-27 00:19:14
 type: "sources"
 ---
 
+## `2019年6月2日`
+
+[语义化版本 2.0.0](https://semver.org/lang/zh-CN/)
+
 ## `2018年1月10日`
 
 [数学公式在线编辑器](http://latex.codecogs.com/eqneditor/editor.php)
