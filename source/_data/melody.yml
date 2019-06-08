@@ -130,7 +130,8 @@ avatar: https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190516230757.png
 
 # false or url of img
 # top_img: https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190517000110.png
-top_img: https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190525185919.png
+# top_img: https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190525185919.png
+top_img: https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190608153614.png
 
 post_meta:
   date_type: created # created or updated
