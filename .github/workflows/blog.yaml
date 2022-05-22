@@ -1,0 +1,52 @@
+name: blog deploy
+
+on:
+  push:
+    branches:
+      - blog # blog 分支 push 的时候才进行作业
+    paths:
+      - 'source/**'
+      - 'themes/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: A job to deploy blog.
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+      with:
+        submodules: true # Checkout private submodules(themes or something else).
+    
+    # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
+    - name: Cache node modules
+      uses: actions/cache@v1
+      id: cache
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - name: Install Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: npm ci # 类似 npm install, 比 npm install 速度更快
+    
+    # Deploy hexo blog website.
+    - name: update blog
+      env:
+        GITHUB_LOGIN: ronething
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+      hexo clean && hexo g
+      cd ./public
+      git init
+      git config user.name "ronething-bot"
+      git config user.email "admin@ronething.cn"
+      git add .
+      git commit -m "update blog"
+      git push --force --quiet https://$GITHUB_LOGIN:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git master:master
+
+    - name: echo
+      run: |
+      echo "update blog ok"
