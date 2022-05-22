@@ -1,7 +1,8 @@
 blog source
 
-[![Build Status](https://travis-ci.org/ronething/ronething.github.io.svg?branch=blog)](https://travis-ci.org/ronething/ronething.github.io)
+[![blog deploy](https://github.com/ronething/ronething.github.io/actions/workflows/blog.yaml/badge.svg?branch=blog)](https://github.com/ronething/ronething.github.io/actions/workflows/blog.yaml)
 
 ## Change Log
 
+- use github actions instead of travis (2022/05/22)
 - add webhook (2020/02/19)
