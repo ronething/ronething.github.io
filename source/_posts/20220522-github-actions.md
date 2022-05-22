@@ -1,3 +1,22 @@
+---
+title: blog 配置 github actions
+date: 2022-05-22 10:44:26
+tags:
+categories:
+top_img:
+---
+
+## 0x00
+
+blog 配置一下 github actions
+
+<!--more-->
+
+## 0x01
+
+前阵子发现 travis 已经失效，考虑配置一下 github actions
+
+```yaml
 name: blog deploy
 
 on:
@@ -49,8 +68,8 @@ jobs:
           ./node_modules/hexo/bin/hexo clean && ./node_modules/hexo/bin/hexo g
           cd ./public
           git init
-          git config user.name "ronething-bot"
-          git config user.email "admin@ronething.cn"
+          git config user.name "xxxx"
+          git config user.email "xxxx"
           git add .
           git commit -m "update blog"
           git push --force --quiet https://$GITHUB_LOGIN:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git master:master
@@ -58,3 +77,9 @@ jobs:
       - name: echo
         run: |
           echo "update blog ok"
+
+```
+
+## 0x02
+
+那么希望可以持续更新下 blog
