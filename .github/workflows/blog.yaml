@@ -38,15 +38,15 @@ jobs:
         GITHUB_LOGIN: ronething
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-      hexo clean && hexo g
-      cd ./public
-      git init
-      git config user.name "ronething-bot"
-      git config user.email "admin@ronething.cn"
-      git add .
-      git commit -m "update blog"
-      git push --force --quiet https://$GITHUB_LOGIN:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git master:master
+        ./node_modules/hexo/bin/hexo clean && ./node_modules/hexo/bin/hexo g
+        cd ./public
+        git init
+        git config user.name "ronething-bot"
+        git config user.email "admin@ronething.cn"
+        git add .
+        git commit -m "update blog"
+        git push --force --quiet https://$GITHUB_LOGIN:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git master:master
 
     - name: echo
       run: |
-      echo "update blog ok"
+        echo "update blog ok"
