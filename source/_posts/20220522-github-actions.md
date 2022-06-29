@@ -1,5 +1,5 @@
 ---
-title: blog 配置 github actions
+title: blog github actions config
 date: 2022-05-22 10:44:26
 tags:
 categories:
