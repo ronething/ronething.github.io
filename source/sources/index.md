@@ -29,9 +29,7 @@ type: "sources"
 
 ## `2017-12-22`
 
-- 大学霸 Kali Linux 安全渗透教程 [在线查看](https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/) [pdf下载](https://www.gitbook.com/download/pdf/book/wizardforcel/daxueba-kali-linux-tutorial) [mobi下载](https://www.gitbook.com/download/mobi/book/wizardforcel/daxueba-kali-linux-tutorial) [epub下载](https://www.gitbook.com/download/epub/book/wizardforcel/daxueba-kali-linux-tutorial)
-- [centos搭建docker环境](//upload.hourglass.ltd/yijiaren/postpic/practice/%E6%90%AD%E5%BB%BAdocker.html)
-- [centos体验juypter](//upload.hourglass.ltd/yijiaren/postpic/practice/centos%E4%BD%93%E9%AA%8Cjuypter.html)
+- 大学霸 Kali Linux 安全渗透教程 [在线查看](https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/)
 
 ## `2017-12-08`
 
@@ -44,24 +42,11 @@ type: "sources"
 
 ## `2017-11-19`
 
-- [ubuntu搭建wordpress博客 - 腾讯云](//upload.hourglass.ltd/yijiaren/postpic/practice/ubuntu%E6%90%AD%E5%BB%BAwordpress%E5%8D%9A%E5%AE%A2.html)
 - [wordpress修改固定链接导致文章页面无法访问的解决方法](http://blog.csdn.net/zkh_101/article/details/53444392)
-
-
-## `2017-11-14`
-
-> 来自腾讯云
-
-- [centos配置nginx ssl](//upload.hourglass.ltd/yijiaren/postpic/practice/centos%E9%85%8D%E7%BD%AEnginx%20ssl.html)
-- [ubuntu建立ftp服务](https://upload.hourglass.ltd/yijiaren/postpic/practice/ubuntu%E5%BB%BA%E7%AB%8Bftp%E6%9C%8D%E5%8A%A1.html)
-- [ubuntu搭建 Discuz 论坛](//upload.hourglass.ltd/yijiaren/postpic/practice/ubuntu%E6%90%AD%E5%BB%BA%20Discuz%20%E8%AE%BA%E5%9D%9B.html)
-- [体验万象鉴黄服务](//upload.hourglass.ltd/yijiaren/postpic/practice/%E4%BD%93%E9%AA%8C%E4%B8%87%E8%B1%A1%E9%89%B4%E9%BB%84%E6%9C%8D%E5%8A%A1.html)
-- [微信搭建ai机器人](//upload.hourglass.ltd/yijiaren/postpic/practice/%E5%BE%AE%E4%BF%A1%E6%90%AD%E5%BB%BAai%E6%9C%BA%E5%99%A8%E4%BA%BA.html)
-- [微信搭建后台服务](//upload.hourglass.ltd/yijiaren/postpic/practice/%E5%BE%AE%E4%BF%A1%E6%90%AD%E5%BB%BA%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1.html)
 
 ## `2017-11-03`
 
-- [DplayerDemo](http://dplayer.js.org/)
+- [dplayer demo](http://dplayer.js.org/)
 
 ## `2017-10-21`
 
