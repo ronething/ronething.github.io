@@ -4,6 +4,11 @@ date: 2019-05-27 00:19:14
 type: "sources"
 ---
 
+## `2024-12-13`
+
+- [ai-ffmpeg](https://www.ai-ffmpeg.net/)
+- [ai-ffmpeg tools](https://www.ai-ffmpeg.net/en/tools)
+
 ## `2019年8月24日`
 
 - [go 基础](https://www.yuque.com/ksco/ogg7um)
