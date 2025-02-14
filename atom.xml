@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ronething&#39;s blog</title>
+  
+  <subtitle>be a man</subtitle>
+  <link href="https://blog.ronething.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.ronething.cn/"/>
+  <updated>2025-02-14T17:07:31.034Z</updated>
+  <id>https://blog.ronething.cn/</id>
+  
+  <author>
+    <name>ronething</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Xiudong-Go Release</title>
+    <link href="https://blog.ronething.cn/20230227-xiudong-go.html"/>
+    <id>https://blog.ronething.cn/20230227-xiudong-go.html</id>
+    <published>2023-02-27T18:22:20.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h3&gt;&lt;p&gt;Web 版秀动请求样例学习&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="golang" scheme="https://blog.ronething.cn/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub Star Migration</title>
+    <link href="https://blog.ronething.cn/20230223-star-migration.html"/>
+    <id>https://blog.ronething.cn/20230223-star-migration.html</id>
+    <published>2023-02-23T20:29:22.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;本文记录下使用 ChatGPT 完成 Github Star 迁移任务。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="GitHub" scheme="https://blog.ronething.cn/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Build Apache APISIX From Source On M2 Pro</title>
+    <link href="https://blog.ronething.cn/20230212-build-apisix-on-m2-pro.html"/>
+    <id>https://blog.ronething.cn/20230212-build-apisix-on-m2-pro.html</id>
+    <published>2023-02-12T15:50:19.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;介绍下如何在 Apple M2 Pro 上从零开始源码构建 Apache APISIX&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Apache APISIX" scheme="https://blog.ronething.cn/tags/Apache-APISIX/"/>
+    
+    <category term="M2 Pro" scheme="https://blog.ronething.cn/tags/M2-Pro/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>zhengzaitv-go release</title>
+    <link href="https://blog.ronething.cn/20220629-zhengzaitv-go.html"/>
+    <id>https://blog.ronething.cn/20220629-zhengzaitv-go.html</id>
+    <published>2022-06-29T09:59:23.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;基于 golang 实现的正在现场请求样例&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="golang" scheme="https://blog.ronething.cn/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go-zero gin jaeger trace</title>
+    <link href="https://blog.ronething.cn/20220628-go-zero-trace-gin.html"/>
+    <id>https://blog.ronething.cn/20220628-go-zero-trace-gin.html</id>
+    <published>2022-06-28T09:59:23.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;最近玩玩链路追踪&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="golang" scheme="https://blog.ronething.cn/tags/golang/"/>
+    
+    <category term="jaeger" scheme="https://blog.ronething.cn/tags/jaeger/"/>
+    
+    <category term="go-zero" scheme="https://blog.ronething.cn/tags/go-zero/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>function compute</title>
+    <link href="https://blog.ronething.cn/20220606-functioncompute.html"/>
+    <id>https://blog.ronething.cn/20220606-functioncompute.html</id>
+    <published>2022-06-06T09:59:23.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;最近在玩函数计算&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="golang" scheme="https://blog.ronething.cn/tags/golang/"/>
+    
+    <category term="function compute" scheme="https://blog.ronething.cn/tags/function-compute/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>blog github actions config</title>
+    <link href="https://blog.ronething.cn/20220522-github-actions.html"/>
+    <id>https://blog.ronething.cn/20220522-github-actions.html</id>
+    <published>2022-05-22T10:44:26.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;blog 配置一下 github actions&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>implement showstart order service based on python and selenium</title>
+    <link href="https://blog.ronething.cn/20220416-xiudong-selenium.html"/>
+    <id>https://blog.ronething.cn/20220416-xiudong-selenium.html</id>
+    <published>2022-04-16T23:27:44.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;时间过的真快，想不到我又回来了。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="python" scheme="https://blog.ronething.cn/tags/python/"/>
+    
+    <category term="selenium" scheme="https://blog.ronething.cn/tags/selenium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020 annual summary</title>
+    <link href="https://blog.ronething.cn/20210101-summary.html"/>
+    <id>https://blog.ronething.cn/20210101-summary.html</id>
+    <published>2020-12-31T21:29:54.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;兜兜转转起起落落，一年又要过去了。嘻嘻。记记流水账。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Missing digits from 0 to n-1</title>
+    <link href="https://blog.ronething.cn/20200912-algo.html"/>
+    <id>https://blog.ronething.cn/20200912-algo.html</id>
+    <published>2020-09-12T14:25:31.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;无聊写写题&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="golang" scheme="https://blog.ronething.cn/tags/golang/"/>
+    
+    <category term="algorithm" scheme="https://blog.ronething.cn/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mp-dev by golang</title>
+    <link href="https://blog.ronething.cn/20200912-mp-dev.html"/>
+    <id>https://blog.ronething.cn/20200912-mp-dev.html</id>
+    <published>2020-09-12T00:12:38.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;前两天分享了一下 &lt;a href=&quot;https://mp.weixin.qq.com/s/zfbU09OMNdoJY6iRaaDb2Q&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;网抑云之微信公众号开发&lt;/a&gt;, 现已整理开源，还有许多要完善的地方&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="golang" scheme="https://blog.ronething.cn/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GO 语言实现简单的分布式任务调度系统</title>
+    <link href="https://blog.ronething.cn/20200727-clock.html"/>
+    <id>https://blog.ronething.cn/20200727-clock.html</id>
+    <published>2020-07-27T23:38:28.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;时间过的真快，几个月又过去了。&lt;/p&gt;
+&lt;p&gt;问题不大，想不到我又回来了。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>implement simple web framework</title>
+    <link href="https://blog.ronething.cn/20200514-simple-web-framework.html"/>
+    <id>https://blog.ronething.cn/20200514-simple-web-framework.html</id>
+    <published>2020-05-14T23:23:47.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;如何实现一个简单的 Web 框架？&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Go 简明教程</title>
+    <link href="https://blog.ronething.cn/20200328-golang-quick-start.html"/>
+    <id>https://blog.ronething.cn/20200328-golang-quick-start.html</id>
+    <published>2020-03-28T08:24:18.000Z</published>
+    <updated>2025-02-14T17:07:31.034Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a name=&quot;48lfj&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Intro&quot;&gt;&lt;a href=&quot;#Intro&quot; class=&quot;headerlink&quot; title=&quot;Intro&quot;&gt;&lt;/a&gt;Intro&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Go（又称 Golang）是 Google 开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。 —— Go - wikipedia.org&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="golang" scheme="https://blog.ronething.cn/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019 年终总结</title>
+    <link href="https://blog.ronething.cn/20200101-summary.html"/>
+    <id>https://blog.ronething.cn/20200101-summary.html</id>
+    <published>2020-01-01T00:12:59.000Z</published>
+    <updated>2025-02-14T17:07:31.033Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;不知道为何就是想要写一下年终总结😁&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL5.7 日期字段默认值 &#39;0000-00-00 00:00:00&#39; 报错</title>
+    <link href="https://blog.ronething.cn/20191221-mysql-sql-mode.html"/>
+    <id>https://blog.ronething.cn/20191221-mysql-sql-mode.html</id>
+    <published>2019-12-21T16:07:49.000Z</published>
+    <updated>2025-02-14T17:07:31.033Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;最近遇到一个问题，MySQL5.7 日期字段默认值 ‘0000-00-00 00:00:00’ 报错&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git commit modify author name and email</title>
+    <link href="https://blog.ronething.cn/20190831-git-commit.html"/>
+    <id>https://blog.ronething.cn/20190831-git-commit.html</id>
+    <published>2019-08-31T14:15:21.000Z</published>
+    <updated>2025-02-14T17:07:31.033Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;要修改 &lt;code&gt;git commit&lt;/code&gt; 信息，怎么办？&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="git" scheme="https://blog.ronething.cn/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode remote ssh 终端中文显示问题</title>
+    <link href="https://blog.ronething.cn/20190819-vscode-remote-ssh.html"/>
+    <id>https://blog.ronething.cn/20190819-vscode-remote-ssh.html</id>
+    <published>2019-08-19T00:09:32.000Z</published>
+    <updated>2025-02-14T17:07:31.033Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;使用了 vscode remote ssh 插件连接远程主机出现 git log 显示不了中文问题。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="linux" scheme="https://blog.ronething.cn/tags/linux/"/>
+    
+    <category term="vscode" scheme="https://blog.ronething.cn/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu 16.04 桌面版配置</title>
+    <link href="https://blog.ronething.cn/20190728-ubuntu.html"/>
+    <id>https://blog.ronething.cn/20190728-ubuntu.html</id>
+    <published>2019-07-28T15:27:04.000Z</published>
+    <updated>2025-02-14T17:07:31.033Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;就。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="linux" scheme="https://blog.ronething.cn/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wsl 开启 ssh 服务</title>
+    <link href="https://blog.ronething.cn/20190727-wsl.html"/>
+    <id>https://blog.ronething.cn/20190727-wsl.html</id>
+    <published>2019-07-27T23:48:46.000Z</published>
+    <updated>2025-02-14T17:07:31.033Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0x00&quot;&gt;&lt;a href=&quot;#0x00&quot; class=&quot;headerlink&quot; title=&quot;0x00&quot;&gt;&lt;/a&gt;0x00&lt;/h2&gt;&lt;p&gt;好久不见。想不到时间过得这么快。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="windows" scheme="https://blog.ronething.cn/tags/windows/"/>
+    
+    <category term="linux" scheme="https://blog.ronething.cn/tags/linux/"/>
+    
+    <category term="wsl" scheme="https://blog.ronething.cn/tags/wsl/"/>
+    
+  </entry>
+  
+</feed>

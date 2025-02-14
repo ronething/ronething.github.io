@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="搭建 wordpress 网站遇到的一些问题"><meta name="keywords" content><meta name="author" content="ronething"><meta name="copyright" content="ronething"><title>搭建 wordpress 网站遇到的一些问题 | ronething's blog</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  }
+} </script><link rel="alternate" href="/atom.xml" title="ronething's blog" type="application/atom+xml">
+</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#0x00"><span class="toc-text">0x00</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0x01"><span class="toc-text">0x01</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0x02"><span class="toc-text">0x02</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0x03"><span class="toc-text">0x03</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190516230757.png"></div><div class="author-info__name text-center">ronething</div><div class="author-info__description text-center"></div><div class="follow-button"><a href="https://github.com/ronething">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">65</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">24</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190518190905.png)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">ronething's blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a><a class="site-page" href="/sources">Sources</a></span></div><div id="post-info"><div id="post-title">搭建 wordpress 网站遇到的一些问题</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-06-16</time><div class="post-meta-wordcount"><span>Word count: </span><span class="word-count">573</span><span class="post-meta__separator">|</span><span>Reading time: 1 min</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><p>WordPress 提示”在裁剪您的图像时发生了错误” 怎么办</p>
+<a id="more"></a>
+<ul>
+<li>问题：</li>
+</ul>
+<p>在 WordPress 中使用裁剪图片功能时，出现：“在裁剪您的图像时发生了错误” 或者 “There has been an error cropping your image.”</p>
+<ul>
+<li>原因：</li>
+</ul>
+<p>📝缺少 PHP GD 库</p>
+<ul>
+<li>ubuntu 下执行</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install php5-gd</span><br><span class="line"><span class="comment"># or</span></span><br><span class="line">sudo apt-get install php7.0-gd</span><br></pre></td></tr></table></figure>
+<ul>
+<li>centos 下执行</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install php-gd</span><br></pre></td></tr></table></figure>
+<p>安装完以后重启 Apache 或 Nginx 即可</p>
+<h2 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h2><p>解决 WordPress 上传文件的大小限制（默认上传大小为2M）</p>
+<ul>
+<li>修改 php.ini 的内容</li>
+</ul>
+<p>先找到 php.ini 的位置 例如我的是在/etc/php/7.0/apache2 目录下面</p>
+<p>可以使用 phpinfo() 查看</p>
+<p>打开文件,</p>
+<p>找到 upload_max_filesize 修改</p>
+<p>找到 post_max_size 修改</p>
+<p>两个都要修改，一般设置成相等就行了。</p>
+<p>看到一篇博客的解释：</p>
+<blockquote>
+<p>php.ini 配置文件中的默认文件上传大小为 2M，默认 upload_max_filesize = 2M，即文件上传的大小为 2M，如果你想上传超过 8M 的文件，比如 20M，你必须设定 upload_max_filesize=20M。但是光设置 upload_max_filesize=20M 还是无法实现大文件的上传功能，你必须修改 php.ini 配置文件中的 post_max_size 选项，其代表允许 POST 的数据最大字节长度，默认为 8M。如果 POST 数据超出限制，那么 $_POST 和 $_FILES 将会为空。要上传大文件，你必须设定该选项值大于 upload_max_filesize 指令的值，我一般设定 upload_max_filesize 和 post_max_size 值相等。另外如果启用了内存限制，那么该值应当小于 memory_limit 选项的值。</p>
+</blockquote>
+<ul>
+<li>文件上传的其他注意事项</li>
+</ul>
+<p>在上传大文件时，你会有上传速度慢的感觉，当超过一定的时间，会报脚本执行超过 30 秒的错误，这是因为在 php.ini 配置文件中 max_execution_time 配置选项在作怪，其表示每个脚本最大允许执行时间(秒)，0 表示没有限制。你可以适当调整max_execution_time 的值，不推荐设定为 0。</p>
+<h2 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h2><p>WordPress 升级/安装主题插件提示权限不足 输入FTP解决办法</p>
+<p>在 WordPress 目录下的 wp-config.php 中插入：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="string">"FS_METHOD"</span>, <span class="string">"direct"</span>);</span><br><span class="line">define(<span class="string">"FS_CHMOD_DIR"</span>, 0777);</span><br><span class="line">define(<span class="string">"FS_CHMOD_FILE"</span>, 0777);</span><br></pre></td></tr></table></figure>
+<p>📝为了安全建议升级完成删除或者注释所加内容</p>
+<h2 id="0x03"><a href="#0x03" class="headerlink" title="0x03"></a>0x03</h2><p>封面出处：<a href="https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=72959861" target="_blank" rel="noopener">https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=72959861</a></p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">ronething</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://blog.ronething.cn/20180616-wp.html">https://blog.ronething.cn/20180616-wp.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"></div><nav id="pagination"><div class="prev-post pull-left"><a href="/20180618-wp.html"><i class="fa fa-chevron-left">  </i><span>搭建音乐站点发生的趣事</span></a></div><div class="next-post pull-right"><a href="/20180525-active-win10.html"><span>Win10 正式专业版激活方法</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190518190905.png)"><div class="layout" id="footer"><div class="copyright">&copy;2017 - 2025 By ronething</div><div class="framework-info"><span>Driven - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="/js/third-party/anime.min.js"></script><script src="/js/third-party/jquery.min.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script src="/js/third-party/velocity.min.js"></script><script src="/js/third-party/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script>if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+}</script></body></html>

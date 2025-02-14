@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="ubuntu 桌面版开发配置"><meta name="keywords" content="linux"><meta name="author" content="ronething"><meta name="copyright" content="ronething"><title>ubuntu 桌面版开发配置 | ronething's blog</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  }
+} </script><link rel="alternate" href="/atom.xml" title="ronething's blog" type="application/atom+xml">
+</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#0x00"><span class="toc-text">0x00</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0x01"><span class="toc-text">0x01</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#开发基本需求"><span class="toc-text">开发基本需求</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#pycharm-安装"><span class="toc-text">pycharm 安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#python-升级-python3-7"><span class="toc-text">python 升级 python3.7</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#firefox-升级"><span class="toc-text">firefox 升级</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#vscode、typora-markdown-编辑器"><span class="toc-text">vscode、typora markdown 编辑器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#科学上网"><span class="toc-text">科学上网</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#pip-换源-系统换源-sources-list"><span class="toc-text">pip 换源 系统换源 sources.list</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#yarn-npm-node-安装"><span class="toc-text">yarn npm node 安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#中文输入法安装"><span class="toc-text">中文输入法安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#zsh-终端-zsh-autosuggestions"><span class="toc-text">zsh 终端 zsh-autosuggestions</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#openssh-server"><span class="toc-text">openssh-server</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0x02"><span class="toc-text">0x02</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190516230757.png"></div><div class="author-info__name text-center">ronething</div><div class="author-info__description text-center"></div><div class="follow-button"><a href="https://github.com/ronething">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">65</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">24</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190608153614.png)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">ronething's blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a><a class="site-page" href="/sources">Sources</a></span></div><div id="post-info"><div id="post-title">ubuntu 桌面版开发配置</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-05-28</time><div class="post-meta-wordcount"><span>Word count: </span><span class="word-count">855</span><span class="post-meta__separator">|</span><span>Reading time: 3 min</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><p>因为某些原因，安装了 linux 系统作为开发，我不是很想说这是在虚拟机上弄的，我也很难受。</p>
+<a id="more"></a>
+<h2 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h2><ul>
+<li>发行版选择</li>
+</ul>
+<p>想来想去还是选择了 ubuntu 1604，用过一些其他的发行版觉得一般，可能是我菜吧。</p>
+<h3 id="开发基本需求"><a href="#开发基本需求" class="headerlink" title="开发基本需求"></a>开发基本需求</h3><ul>
+<li>pycharm 安装</li>
+<li>python 升级 python3.7</li>
+<li>firefox 升级</li>
+<li>vscode、typora markdown 编辑器</li>
+<li>科学上网</li>
+<li>pip 换源</li>
+<li>系统换源 sources.list</li>
+<li>yarn npm node 安装</li>
+<li>中文输入法安装</li>
+<li>zsh 终端 zsh-autosuggestions</li>
+<li>openssh-server</li>
+</ul>
+<h4 id="pycharm-安装"><a href="#pycharm-安装" class="headerlink" title="pycharm 安装"></a>pycharm 安装</h4><p><a href="https://www.jetbrains.com/pycharm/download/#section=linux" target="_blank" rel="noopener">https://www.jetbrains.com/pycharm/download/#section=linux</a> 官网下载</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf xx.tar.gz</span><br><span class="line"><span class="built_in">cd</span> xx/bin</span><br><span class="line">./pycharm.sh</span><br></pre></td></tr></table></figure>
+<p>按照提示安装，最后需要注意的一点是 create desktop entry 创建桌面快捷方式。</p>
+<p>可以通过点击开始界面右下角的 configure 下拉菜单创建</p>
+<h4 id="python-升级-python3-7"><a href="#python-升级-python3-7" class="headerlink" title="python 升级 python3.7"></a>python 升级 python3.7</h4><ul>
+<li>安装依赖</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install python-dev python-setuptools python-pip python-smbus build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib1g-dev libsqlite3-dev tk-dev libssl-dev openssl libffi-dev</span><br></pre></td></tr></table></figure>
+<ul>
+<li>获取 python3.7 源码并编译安装</li>
+</ul>
+<p><a href="https://www.python.org/downloads/source/" target="_blank" rel="noopener">https://www.python.org/downloads/source/</a> 下载链接</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf xxx.tar.gz</span><br><span class="line"><span class="built_in">cd</span> xxx</span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
+<ul>
+<li>获取 python3.7 的路径</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">which</span> python3.7</span><br></pre></td></tr></table></figure>
+<h4 id="firefox-升级"><a href="#firefox-升级" class="headerlink" title="firefox 升级"></a>firefox 升级</h4><p><a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener">https://www.mozilla.org/en-US/firefox/new/</a> 下载链接</p>
+<ul>
+<li>卸载旧版本 firefox</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get remove firefox</span><br></pre></td></tr></table></figure>
+<ul>
+<li>解压缩并创建软链接</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 注意这里不需要 z 参数</span></span><br><span class="line">tar -xvf xxx.tar.bz2</span><br><span class="line">sudo mv firefox /opt</span><br><span class="line"><span class="comment"># 创建软连接</span></span><br><span class="line">sudo ln -s /opt/firefox/firefox /usr/bin/firefox</span><br></pre></td></tr></table></figure>
+<ul>
+<li>创建快捷方式</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /usr/share/applications/firefox.desktop</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[Desktop Entry]</span><br><span class="line">Name=firefox</span><br><span class="line">Comment=firefox</span><br><span class="line">Exec=/usr/bin/firefox</span><br><span class="line">Icon=/opt/firefox/browser/chrome/icons/default/default128.png</span><br><span class="line">Terminal=<span class="literal">false</span></span><br><span class="line">Type=Application</span><br><span class="line">Encoding=UTF-8</span><br><span class="line">StartupNotify=<span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>具体含义可以自行通过搜索引擎获取相应内容</p>
+<h4 id="vscode、typora-markdown-编辑器"><a href="#vscode、typora-markdown-编辑器" class="headerlink" title="vscode、typora markdown 编辑器"></a>vscode、typora markdown 编辑器</h4><ul>
+<li>vscode </li>
+</ul>
+<p><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/</a> </p>
+<p>下载 deb 包</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -i xxx.deb</span><br></pre></td></tr></table></figure>
+<ul>
+<li>typora</li>
+</ul>
+<p>(发觉我忘记安装了) vscode 自带了 markdown 也有预览效果 按钮在右上角</p>
+<p>不过这个编辑器所见即所得 还不错 看看自己习惯哪一个</p>
+<p><a href="https://typora.io/" target="_blank" rel="noopener">https://typora.io/</a></p>
+<h4 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h4><ul>
+<li>我们只是为了学习。</li>
+</ul>
+<h4 id="pip-换源-系统换源-sources-list"><a href="#pip-换源-系统换源-sources-list" class="headerlink" title="pip 换源 系统换源 sources.list"></a>pip 换源 系统换源 sources.list</h4><p><a href="https://blog.ronething.cn/20190528-pip-apt.html">昨天写的</a></p>
+<h4 id="yarn-npm-node-安装"><a href="#yarn-npm-node-安装" class="headerlink" title="yarn npm node 安装"></a>yarn npm node 安装</h4><p>这里有一个坑 安装 yarn 之前要先安装 node 的样子</p>
+<p>不然执行 yarn 相关命令会出现 <code>Installation Problem: Unexpected token { in cli.js</code></p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -</span><br><span class="line">sudo apt install -y nodejs</span><br><span class="line">sudo apt install yarn npm</span><br></pre></td></tr></table></figure>
+<p>如果上面命令安装不了 yarn 可以参考一下</p>
+<p>yarn 网站：<a href="https://yarnpkg.com/zh-Hans/docs/install#debian-stable" target="_blank" rel="noopener">https://yarnpkg.com/zh-Hans/docs/install#debian-stable</a></p>
+<h4 id="中文输入法安装"><a href="#中文输入法安装" class="headerlink" title="中文输入法安装"></a>中文输入法安装</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install fcitx fcitx-rime</span><br></pre></td></tr></table></figure>
+<p>并在系统设置 language support 中 keyboard input method system 选择 fcitx</p>
+<p>如果在点开系统设置的时候显示语言安装不完整，记得点击安装。</p>
+<p>之后重启，在 dock 搜索框输入 fcitx 进行配置</p>
+<p>添加 rime 输入法</p>
+<h4 id="zsh-终端-zsh-autosuggestions"><a href="#zsh-终端-zsh-autosuggestions" class="headerlink" title="zsh 终端 zsh-autosuggestions"></a>zsh 终端 zsh-autosuggestions</h4><p><a href="https://blog.ronething.cn/20181122-oh-my-zsh.html">之前写过</a></p>
+<p>不过没有 zsh-autosuggestions </p>
+<blockquote>
+<p>It suggests commands as you type, based on command history.</p>
+</blockquote>
+<p><a href="https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md" target="_blank" rel="noopener">https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md</a></p>
+<p>鉴于我们已经安装了 oh-my-zsh 所以只需要进行以下两步</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/zsh-users/zsh-autosuggestions <span class="variable">$&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;</span>/plugins/zsh-autosuggestions</span><br><span class="line"><span class="comment"># Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):</span></span><br><span class="line">plugins=(zsh-autosuggestions)</span><br></pre></td></tr></table></figure>
+<h4 id="openssh-server"><a href="#openssh-server" class="headerlink" title="openssh-server"></a>openssh-server</h4><p>开头说了，虚拟机里面安装了 linux，所以有时会有远程连接的需求</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install openssh-server</span><br><span class="line"><span class="comment">#　查看服务是否在执行</span></span><br><span class="line">sudo ps -ef | grep sshd</span><br></pre></td></tr></table></figure>
+<p>安装完成之后 理论上可以在宿主机上用 ssh 连接进来了。</p>
+<h2 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h2><p>参考资料：</p>
+<p><a href="https://blog.csdn.net/weixin_39278265/article/details/82286724" target="_blank" rel="noopener">升级 firefox</a></p>
+<p><a href="https://blog.csdn.net/qq_15260769/article/details/88822620" target="_blank" rel="noopener">升级 python</a></p>
+<p><a href="http://blog.topspeedsnail.com/archives/6948" target="_blank" rel="noopener">中文输入法</a></p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">ronething</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://blog.ronething.cn/20190528-linux.html">https://blog.ronething.cn/20190528-linux.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/linux/">linux</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/20190529-xdg-dirs.html"><i class="fa fa-chevron-left">  </i><span>ubuntu 中文目录改为英文</span></a></div><div class="next-post pull-right"><a href="/20190528-serverchan.html"><span>从服务器推报警和日志到手机的工具</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190608153614.png)"><div class="layout" id="footer"><div class="copyright">&copy;2017 - 2025 By ronething</div><div class="framework-info"><span>Driven - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="/js/third-party/anime.min.js"></script><script src="/js/third-party/jquery.min.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script src="/js/third-party/velocity.min.js"></script><script src="/js/third-party/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script>if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+}</script></body></html>
