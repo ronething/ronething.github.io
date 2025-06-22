@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ronething's blog</title><link>https://blog.ronething.cn/</link><description>Recent content on ronething's blog</description><generator>Hugo -- 0.147.8</generator><language>en</language><lastBuildDate>Mon, 27 Feb 2023 18:22:20 +0000</lastBuildDate><atom:link href="https://blog.ronething.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>Xiudong-Go Release</title><link>https://blog.ronething.cn/20230227-xiudong-go.html</link><pubDate>Mon, 27 Feb 2023 18:22:20 +0000</pubDate><guid>https://blog.ronething.cn/20230227-xiudong-go.html</guid><description>&lt;h3 id="0x00">0x00&lt;/h3>
+&lt;p>Web 版秀动请求样例学习&lt;/p></description></item><item><title>GitHub Star Migration</title><link>https://blog.ronething.cn/20230223-star-migration.html</link><pubDate>Thu, 23 Feb 2023 20:29:22 +0000</pubDate><guid>https://blog.ronething.cn/20230223-star-migration.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>本文记录下使用 ChatGPT 完成 Github Star 迁移任务。&lt;/p></description></item><item><title>Build Apache APISIX From Source On M2 Pro</title><link>https://blog.ronething.cn/20230212-build-apisix-on-m2-pro.html</link><pubDate>Sun, 12 Feb 2023 15:50:19 +0000</pubDate><guid>https://blog.ronething.cn/20230212-build-apisix-on-m2-pro.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>介绍下如何在 Apple M2 Pro 上从零开始源码构建 Apache APISIX&lt;/p></description></item><item><title>zhengzaitv-go release</title><link>https://blog.ronething.cn/20220629-zhengzaitv-go.html</link><pubDate>Wed, 29 Jun 2022 09:59:23 +0000</pubDate><guid>https://blog.ronething.cn/20220629-zhengzaitv-go.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>基于 golang 实现的正在现场请求样例&lt;/p></description></item><item><title>go-zero gin jaeger trace</title><link>https://blog.ronething.cn/20220628-go-zero-trace-gin.html</link><pubDate>Tue, 28 Jun 2022 09:59:23 +0000</pubDate><guid>https://blog.ronething.cn/20220628-go-zero-trace-gin.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>最近玩玩链路追踪&lt;/p></description></item><item><title>function compute</title><link>https://blog.ronething.cn/20220606-functioncompute.html</link><pubDate>Mon, 06 Jun 2022 09:59:23 +0000</pubDate><guid>https://blog.ronething.cn/20220606-functioncompute.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>最近在玩函数计算&lt;/p></description></item><item><title>blog github actions config</title><link>https://blog.ronething.cn/20220522-github-actions.html</link><pubDate>Sun, 22 May 2022 10:44:26 +0000</pubDate><guid>https://blog.ronething.cn/20220522-github-actions.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>blog 配置一下 github actions&lt;/p></description></item><item><title>implement showstart order service based on python and selenium</title><link>https://blog.ronething.cn/20220416-xiudong-selenium.html</link><pubDate>Sat, 16 Apr 2022 23:27:44 +0000</pubDate><guid>https://blog.ronething.cn/20220416-xiudong-selenium.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>时间过的真快，想不到我又回来了。&lt;/p></description></item><item><title>2020 annual summary</title><link>https://blog.ronething.cn/20210101-summary.html</link><pubDate>Thu, 31 Dec 2020 21:29:54 +0000</pubDate><guid>https://blog.ronething.cn/20210101-summary.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>兜兜转转起起落落，一年又要过去了。嘻嘻。记记流水账。&lt;/p></description></item><item><title>Missing digits from 0 to n-1</title><link>https://blog.ronething.cn/20200912-algo.html</link><pubDate>Sat, 12 Sep 2020 14:25:31 +0000</pubDate><guid>https://blog.ronething.cn/20200912-algo.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>无聊写写题&lt;/p></description></item><item><title>mp-dev by golang</title><link>https://blog.ronething.cn/20200912-mp-dev.html</link><pubDate>Sat, 12 Sep 2020 00:12:38 +0000</pubDate><guid>https://blog.ronething.cn/20200912-mp-dev.html</guid><description>&lt;h3 id="前言">前言&lt;/h3>
+&lt;p>前两天分享了一下 &lt;a href="https://mp.weixin.qq.com/s/zfbU09OMNdoJY6iRaaDb2Q">网抑云之微信公众号开发&lt;/a>, 现已整理开源，还有许多要完善的地方&lt;/p></description></item><item><title>GO 语言实现简单的分布式任务调度系统</title><link>https://blog.ronething.cn/20200727-clock.html</link><pubDate>Mon, 27 Jul 2020 23:38:28 +0000</pubDate><guid>https://blog.ronething.cn/20200727-clock.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>时间过的真快，几个月又过去了。&lt;/p>
+&lt;p>问题不大，想不到我又回来了。&lt;/p></description></item><item><title>implement simple web framework</title><link>https://blog.ronething.cn/20200514-simple-web-framework.html</link><pubDate>Thu, 14 May 2020 23:23:47 +0000</pubDate><guid>https://blog.ronething.cn/20200514-simple-web-framework.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>如何实现一个简单的 Web 框架？&lt;/p></description></item><item><title>Go 简明教程</title><link>https://blog.ronething.cn/20200328-golang-quick-start.html</link><pubDate>Sat, 28 Mar 2020 08:24:18 +0000</pubDate><guid>https://blog.ronething.cn/20200328-golang-quick-start.html</guid><description>&lt;p>&lt;a name="48lfj">&lt;/a>&lt;/p>
+&lt;h3 id="intro">Intro&lt;/h3>
+&lt;blockquote>
+&lt;p>Go（又称 Golang）是 Google 开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。 —— Go - wikipedia.org&lt;/p>&lt;/blockquote></description></item><item><title>2019 年终总结</title><link>https://blog.ronething.cn/20200101-summary.html</link><pubDate>Wed, 01 Jan 2020 00:12:59 +0000</pubDate><guid>https://blog.ronething.cn/20200101-summary.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>不知道为何就是想要写一下年终总结😁&lt;/p></description></item><item><title>MySQL5.7 日期字段默认值 '0000-00-00 00:00:00' 报错</title><link>https://blog.ronething.cn/20191221-mysql-sql-mode.html</link><pubDate>Sat, 21 Dec 2019 16:07:49 +0000</pubDate><guid>https://blog.ronething.cn/20191221-mysql-sql-mode.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>最近遇到一个问题，MySQL5.7 日期字段默认值 &amp;lsquo;0000-00-00 00:00:00&amp;rsquo; 报错&lt;/p></description></item><item><title>git commit modify author name and email</title><link>https://blog.ronething.cn/20190831-git-commit.html</link><pubDate>Sat, 31 Aug 2019 14:15:21 +0000</pubDate><guid>https://blog.ronething.cn/20190831-git-commit.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>要修改 &lt;code>git commit&lt;/code> 信息，怎么办？&lt;/p></description></item><item><title>vscode remote ssh 终端中文显示问题</title><link>https://blog.ronething.cn/20190819-vscode-remote-ssh.html</link><pubDate>Mon, 19 Aug 2019 00:09:32 +0000</pubDate><guid>https://blog.ronething.cn/20190819-vscode-remote-ssh.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>使用了 vscode remote ssh 插件连接远程主机出现 git log 显示不了中文问题。&lt;/p></description></item><item><title>ubuntu 16.04 桌面版配置</title><link>https://blog.ronething.cn/20190728-ubuntu.html</link><pubDate>Sun, 28 Jul 2019 15:27:04 +0000</pubDate><guid>https://blog.ronething.cn/20190728-ubuntu.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>就。&lt;/p></description></item><item><title>wsl 开启 ssh 服务</title><link>https://blog.ronething.cn/20190727-wsl.html</link><pubDate>Sat, 27 Jul 2019 23:48:46 +0000</pubDate><guid>https://blog.ronething.cn/20190727-wsl.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>好久不见。想不到时间过得这么快。&lt;/p></description></item><item><title>Dockerfile</title><link>https://blog.ronething.cn/20190615-dockerfile.html</link><pubDate>Sat, 15 Jun 2019 00:59:31 +0000</pubDate><guid>https://blog.ronething.cn/20190615-dockerfile.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>由于某些原因，需要将开发的 flask 项目容器化部署，只好手动制作镜像。&lt;/p></description></item><item><title>chrome bookmark 整理统计生成词云☁️</title><link>https://blog.ronething.cn/20190607-bookmark.html</link><pubDate>Fri, 07 Jun 2019 00:19:03 +0000</pubDate><guid>https://blog.ronething.cn/20190607-bookmark.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>要高考了(看别人高考嘻嘻)，本来想着整理一下 chrome 书签，然后一发不可收拾，看到以前收藏的书签🔖，觉得很有意思，然后。。&lt;/p></description></item><item><title>最近的琐事</title><link>https://blog.ronething.cn/20190604-new.html</link><pubDate>Tue, 04 Jun 2019 23:26:40 +0000</pubDate><guid>https://blog.ronething.cn/20190604-new.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>挺忙的？&lt;/p></description></item><item><title>github 获取文件的永久链接</title><link>https://blog.ronething.cn/20190602-github.html</link><pubDate>Sun, 02 Jun 2019 11:22:42 +0000</pubDate><guid>https://blog.ronething.cn/20190602-github.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>当我们要链接一个 github 仓库上的文件的时候，如果直接复制地址栏的 url 的话，是拿不到其永久链接的，怎么办？&lt;/p></description></item><item><title>git reset 之后的数据恢复</title><link>https://blog.ronething.cn/20190601-new.html</link><pubDate>Sat, 01 Jun 2019 22:59:36 +0000</pubDate><guid>https://blog.ronething.cn/20190601-new.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>当你执行了 &lt;code>git reset --hard commitID&lt;/code> 之后，如果反悔了，怎么办？&lt;/p></description></item><item><title>chrome 扩展程序离线下载安装</title><link>https://blog.ronething.cn/20190530-chrome-crx.html</link><pubDate>Thu, 30 May 2019 00:26:39 +0000</pubDate><guid>https://blog.ronething.cn/20190530-chrome-crx.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>小姐姐想要安装扩展程序，但是无奈无法上 chrome 应用商店，怎么办？&lt;/p></description></item><item><title>ubuntu 中文目录改为英文</title><link>https://blog.ronething.cn/20190529-xdg-dirs.html</link><pubDate>Wed, 29 May 2019 23:58:53 +0000</pubDate><guid>https://blog.ronething.cn/20190529-xdg-dirs.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>ubuntu 安装的时候选择了语言简体中文，导致最后在家目录下 ls 列出的目录是中文的，这样在切换目录的时候不太方便，怎么更换为英文目录呢。&lt;/p></description></item><item><title>ubuntu 桌面版开发配置</title><link>https://blog.ronething.cn/20190528-linux.html</link><pubDate>Tue, 28 May 2019 21:31:51 +0000</pubDate><guid>https://blog.ronething.cn/20190528-linux.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>因为某些原因，安装了 linux 系统作为开发，我不是很想说这是在虚拟机上弄的，我也很难受。&lt;/p></description></item><item><title>从服务器推报警和日志到手机的工具</title><link>https://blog.ronething.cn/20190528-serverchan.html</link><pubDate>Tue, 28 May 2019 01:09:19 +0000</pubDate><guid>https://blog.ronething.cn/20190528-serverchan.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>玩一下 server 酱&lt;/p></description></item><item><title>ubuntu 更改系统源和 pip 源</title><link>https://blog.ronething.cn/20190528-pip-apt.html</link><pubDate>Tue, 28 May 2019 00:26:33 +0000</pubDate><guid>https://blog.ronething.cn/20190528-pip-apt.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>官方源太慢？更换源吧。&lt;/p></description></item><item><title>vscode 函数跳转问题</title><link>https://blog.ronething.cn/20190527-vscode.html</link><pubDate>Mon, 27 May 2019 23:52:24 +0000</pubDate><guid>https://blog.ronething.cn/20190527-vscode.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>vscode 跳转到函数之后怎么跳转回之前的位置？&lt;/p></description></item><item><title>资源分享</title><link>https://blog.ronething.cn/sources/</link><pubDate>Mon, 27 May 2019 00:19:14 +0000</pubDate><guid>https://blog.ronething.cn/sources/</guid><description>&lt;h2 id="2019年8月24日">&lt;code>2019年8月24日&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.yuque.com/ksco/ogg7um">go 基础&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2019年6月7日">&lt;code>2019年6月7日&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://yeasy.gitbooks.io/docker_practice/content">Docker — 从入门到实践&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2019年6月2日">&lt;code>2019年6月2日&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://semver.org/lang/zh-CN/">语义化版本 2.0.0&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html">python3 cookbook&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://samwhelp.github.io/book-ubuntu-basic-skill/book/index.html">Ubuntu Basic Skill&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2018年1月10日">&lt;code>2018年1月10日&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://latex.codecogs.com/eqneditor/editor.php">数学公式在线编辑器&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-12-26">&lt;code>2017-12-26&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/sindresorhus/awesome">awesome&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/chenxuuu/24h-raspberry-live-on-bilibili">树莓派驱动的b站直播点播台&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-12-22">&lt;code>2017-12-22&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>大学霸 Kali Linux 安全渗透教程 &lt;a href="https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/">在线查看&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-12-08">&lt;code>2017-12-08&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://www.4hou.com/">嘶吼官网&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/byt3bl33d3r/MITMf">Github中间人框架 MITMf&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-11-23">&lt;code>2017-11-23&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://laod.cn/code-audit/wordpress-upgrade-ftp.html">wordpress安装主题权限不足解决方法&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-11-19">&lt;code>2017-11-19&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://blog.csdn.net/zkh_101/article/details/53444392">wordpress修改固定链接导致文章页面无法访问的解决方法&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-11-03">&lt;code>2017-11-03&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://dplayer.js.org/">dplayer demo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-10-21">&lt;code>2017-10-21&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>HTML参考手册 &lt;a href="https://www.w3cschool.cn/htmltags/">在线查看&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sublime Text 使用手册 &lt;a href="https://www.w3cschool.cn/sublimetext/">在线查看&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-10-12">&lt;code>2017-10-12&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>廖雪峰 JavaScript Python Git 教程 &lt;a href="https://wizardforcel.gitbooks.io/liaoxuefeng/content/">在线查看&lt;/a> &lt;a href="https://www.gitbook.com/download/pdf/book/wizardforcel/liaoxuefeng">pdf下载&lt;/a> &lt;a href="https://www.gitbook.com/download/mobi/book/wizardforcel/liaoxuefeng">mobi下载&lt;/a> &lt;a href="https://www.gitbook.com/download/epub/book/wizardforcel/liaoxuefeng">epub下载&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017-10-11">&lt;code>2017-10-11&lt;/code>&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>鸟哥的Linux私房菜：基础学习篇 第四版 &lt;a href="https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/">在线查看&lt;/a> &lt;a href="https://www.gitbook.com/download/pdf/book/wizardforcel/vbird-linux-basic-4e">pdf下载&lt;/a> &lt;a href="https://www.gitbook.com/download/mobi/book/wizardforcel/vbird-linux-basic-4e">mobi下载&lt;/a> &lt;a href="https://www.gitbook.com/download/epub/book/wizardforcel/vbird-linux-basic-4e">epub下载&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>鸟哥的Linux私房菜：服务器架设篇 第三版 &lt;a href="https://wizardforcel.gitbooks.io/vbird-linux-server-3e/content/">在线查看&lt;/a> &lt;a href="https://www.gitbook.com/download/pdf/book/wizardforcel/vbird-linux-server-3e">pdf下载&lt;/a> &lt;a href="https://www.gitbook.com/download/mobi/book/wizardforcel/vbird-linux-server-3e">mobi下载&lt;/a> &lt;a href="https://www.gitbook.com/download/epub/book/wizardforcel/vbird-linux-server-3e">epub下载&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>网易云音乐api nodejs版本 &lt;a href="https://github.com/Himmas/NeteaseMusicApi">NetEaseMusicApi&lt;/a> &lt;a href="https://binaryify.github.io/NeteaseCloudMusicApi/#/">使用文档&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>autopep8 vscode 插件配置</title><link>https://blog.ronething.cn/20190525-autopep8.html</link><pubDate>Sat, 25 May 2019 19:35:56 +0000</pubDate><guid>https://blog.ronething.cn/20190525-autopep8.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>📝记录一下&lt;/p></description></item><item><title>python 元组的使用</title><link>https://blog.ronething.cn/20190525-tuple-usage.html</link><pubDate>Sat, 25 May 2019 12:56:49 +0000</pubDate><guid>https://blog.ronething.cn/20190525-tuple-usage.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>简单📝一下。&lt;/p></description></item><item><title>python 格式化输出</title><link>https://blog.ronething.cn/20190525-python-format.html</link><pubDate>Sat, 25 May 2019 00:34:29 +0000</pubDate><guid>https://blog.ronething.cn/20190525-python-format.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>你喜欢哪一种方式进行格式化输出？&lt;/p></description></item><item><title>微软商店无法联网，错误代码 0x80131500</title><link>https://blog.ronething.cn/20190522-ms-store.html</link><pubDate>Wed, 22 May 2019 01:38:46 +0000</pubDate><guid>https://blog.ronething.cn/20190522-ms-store.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>微软商店打不开，提示无法联网，可能是各种原因导致的。&lt;/p></description></item><item><title>假设这是一个标题</title><link>https://blog.ronething.cn/20190518-none.html</link><pubDate>Sat, 18 May 2019 11:06:12 +0000</pubDate><guid>https://blog.ronething.cn/20190518-none.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>最近比较忙。&lt;/p>
+&lt;p>想到要毕业了，最直接的影响就是大多数学生福利或者优惠都没有了。有点难受。&lt;/p></description></item><item><title>今天是个好日子</title><link>https://blog.ronething.cn/20190516-new-blog-theme.html</link><pubDate>Thu, 16 May 2019 22:49:10 +0000</pubDate><guid>https://blog.ronething.cn/20190516-new-blog-theme.html</guid><description>&lt;h2 id="0x00-introduction">0x00 Introduction&lt;/h2>
+&lt;p>好久没有写博客了。&lt;/p>
+&lt;p>这两天在看自己以前 star 的项目，发觉很久以前就 star 过这个&lt;a href="https://github.com/Molunerfinn/hexo-theme-melody">主题&lt;/a>，而且这个人还是 picgo 的作者，有意思。&lt;/p></description></item><item><title>flask request json</title><link>https://blog.ronething.cn/20190321-flask.html</link><pubDate>Thu, 21 Mar 2019 00:47:55 +0000</pubDate><guid>https://blog.ronething.cn/20190321-flask.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>flask 获取 request json 数据&lt;/p></description></item><item><title>python 列表和集合相关操作</title><link>https://blog.ronething.cn/20190318-list-set.html</link><pubDate>Mon, 18 Mar 2019 01:01:33 +0000</pubDate><guid>https://blog.ronething.cn/20190318-list-set.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>list 和 set 相关操作？&lt;/p></description></item><item><title>cordova ios 应用跑不起来</title><link>https://blog.ronething.cn/20190130-cordova.html</link><pubDate>Wed, 30 Jan 2019 00:59:23 +0000</pubDate><guid>https://blog.ronething.cn/20190130-cordova.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>直接 &lt;code>cordova run ios&lt;/code> 是不行的，怎么办？&lt;/p></description></item><item><title>ubuntu 18.04 安装 deepin-wechat</title><link>https://blog.ronething.cn/20190120-ubuntu-wechat.html</link><pubDate>Sun, 20 Jan 2019 00:23:16 +0000</pubDate><guid>https://blog.ronething.cn/20190120-ubuntu-wechat.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>ubuntu 如何更好地使用 wechat？安装 deepin-wechat 吧&lt;/p></description></item><item><title>spotlight 显示文件所在的文件夹</title><link>https://blog.ronething.cn/20181229-mac.html</link><pubDate>Sat, 29 Dec 2018 20:37:07 +0000</pubDate><guid>https://blog.ronething.cn/20181229-mac.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>spotlight 很方便，可以搜索 mac 上绝大部分文件，有时候需要显示文件所在的文件夹，如何操作？&lt;/p></description></item><item><title>mac convert img</title><link>https://blog.ronething.cn/20181203-mac.html</link><pubDate>Mon, 03 Dec 2018 01:10:03 +0000</pubDate><guid>https://blog.ronething.cn/20181203-mac.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>mac 系统下，要制作 telegram 表情包，需要将图片转化为 png 格式并有特定尺寸要求，怎么办？&lt;/p></description></item><item><title>centos disable selinux</title><link>https://blog.ronething.cn/20181203-selinux.html</link><pubDate>Mon, 03 Dec 2018 00:53:15 +0000</pubDate><guid>https://blog.ronething.cn/20181203-selinux.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>centos 如何禁用 selinux？&lt;/p></description></item><item><title>ubuntu 添加字体</title><link>https://blog.ronething.cn/20181122-font.html</link><pubDate>Thu, 22 Nov 2018 20:31:43 +0000</pubDate><guid>https://blog.ronething.cn/20181122-font.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>ubuntu 上缺少字体，如何添加？&lt;/p></description></item><item><title>nginx 出现上传文件限制</title><link>https://blog.ronething.cn/20181122-nginx-limit.html</link><pubDate>Thu, 22 Nov 2018 01:17:13 +0000</pubDate><guid>https://blog.ronething.cn/20181122-nginx-limit.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>nginx 默认上传文件限制是 1M，如何解决？&lt;/p></description></item><item><title>nginx error bind to 0.0.0.0:80</title><link>https://blog.ronething.cn/20181122-nginx.html</link><pubDate>Thu, 22 Nov 2018 01:14:29 +0000</pubDate><guid>https://blog.ronething.cn/20181122-nginx.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;blockquote>
+&lt;p>[emerg] bind() to 0.0.0.0:80&lt;/p>&lt;/blockquote>
+&lt;p>服务器出现上述问题，怎么办？&lt;/p></description></item><item><title>mac vscode 修改字体</title><link>https://blog.ronething.cn/20181122-vscode-font.html</link><pubDate>Thu, 22 Nov 2018 01:06:59 +0000</pubDate><guid>https://blog.ronething.cn/20181122-vscode-font.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>因本地安装有 zsh，但是打开 Visual Studio Code 的时候发现主题的特效变成框框，原因是 Visual Studio Code 的终端字体并不是 powerline 的，怎么办？&lt;/p></description></item><item><title>ubuntu 18.04 安装 oh-my-zsh</title><link>https://blog.ronething.cn/20181122-oh-my-zsh.html</link><pubDate>Thu, 22 Nov 2018 00:53:30 +0000</pubDate><guid>https://blog.ronething.cn/20181122-oh-my-zsh.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>更好的终端体验？&lt;/p></description></item><item><title>centos 修复引导</title><link>https://blog.ronething.cn/20181122-centos.html</link><pubDate>Thu, 22 Nov 2018 00:50:23 +0000</pubDate><guid>https://blog.ronething.cn/20181122-centos.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>centos 修复引导？&lt;/p></description></item><item><title>ubuntu apache2 更换默认端口</title><link>https://blog.ronething.cn/20181108-apache.html</link><pubDate>Thu, 08 Nov 2018 20:17:19 +0000</pubDate><guid>https://blog.ronething.cn/20181108-apache.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>apache2 默认监听端口是 80，如何修改？&lt;/p></description></item><item><title>MAC Operation not permitted</title><link>https://blog.ronething.cn/20181001-mac.html</link><pubDate>Mon, 01 Oct 2018 00:17:59 +0000</pubDate><guid>https://blog.ronething.cn/20181001-mac.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>chmod: Unable to change file mode on /usr/bin/cc: Operation not permitted
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在 mac 系统进行操作的时候出现 Operation not permitted 问题&lt;/p></description></item><item><title>ubuntu or centos 屏蔽 ssh 恶意爆破 ip</title><link>https://blog.ronething.cn/20180801-banip.html</link><pubDate>Wed, 01 Aug 2018 00:00:35 +0000</pubDate><guid>https://blog.ronething.cn/20180801-banip.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>服务器经常被别人恶意爆破，如何将这些 IP 加入黑名单？&lt;/p></description></item><item><title>ubuntu16.04 apache2 配置 SSL 证书</title><link>https://blog.ronething.cn/20180701-ssl.html</link><pubDate>Sun, 01 Jul 2018 00:06:12 +0000</pubDate><guid>https://blog.ronething.cn/20180701-ssl.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>感觉有一把小锁头比较舒服。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://blog-1253523830.cosgz.myqcloud.com/assets/img/20190519000835.png">&lt;/p></description></item><item><title>关于 chmod +X</title><link>https://blog.ronething.cn/20180624-chmod.html</link><pubDate>Sun, 24 Jun 2018 20:38:53 +0000</pubDate><guid>https://blog.ronething.cn/20180624-chmod.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>我们都知道 chmod +x 是给所有用户加上执行权限&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ touch myfile
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ ls -l myfile
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>-rw-r--r-- &lt;span style="color:#ae81ff">1&lt;/span> ronething wheel &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span> &lt;span style="color:#ae81ff">18&lt;/span> 20:46 myfile
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ chmod +x myfile &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> ls -l myfile
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>-rwxr-xr-x &lt;span style="color:#ae81ff">1&lt;/span> ronething wheel &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span> &lt;span style="color:#ae81ff">18&lt;/span> 20:46 myfile
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>但是 chmod +X 呢&lt;/p></description></item><item><title>搭建音乐站点发生的趣事</title><link>https://blog.ronething.cn/20180618-wp.html</link><pubDate>Mon, 18 Jun 2018 17:08:54 +0000</pubDate><guid>https://blog.ronething.cn/20180618-wp.html</guid><description>&lt;h2 id="0x00-introduction">0x00 Introduction&lt;/h2>
+&lt;p>只想简单听听歌。&lt;/p></description></item><item><title>搭建 wordpress 网站遇到的一些问题</title><link>https://blog.ronething.cn/20180616-wp.html</link><pubDate>Sat, 16 Jun 2018 18:49:27 +0000</pubDate><guid>https://blog.ronething.cn/20180616-wp.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>WordPress 提示”在裁剪您的图像时发生了错误&amp;quot; 怎么办&lt;/p></description></item><item><title>Win10 正式专业版激活方法</title><link>https://blog.ronething.cn/20180525-active-win10.html</link><pubDate>Fri, 25 May 2018 16:54:20 +0000</pubDate><guid>https://blog.ronething.cn/20180525-active-win10.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>重装系统之后&lt;/p></description></item><item><title>MP3 歌曲添加专辑封面图片</title><link>https://blog.ronething.cn/20180520-mp3.html</link><pubDate>Sun, 20 May 2018 16:40:52 +0000</pubDate><guid>https://blog.ronething.cn/20180520-mp3.html</guid><description>&lt;h2 id="0x00-introduction">0x00 Introduction&lt;/h2>
+&lt;p>因为某些原因需要给 mp3 加上封面图片&lt;/p></description></item><item><title>树莓派搭建小型 NAS 服务器</title><link>https://blog.ronething.cn/20180518-pi.html</link><pubDate>Fri, 18 May 2018 14:58:57 +0000</pubDate><guid>https://blog.ronething.cn/20180518-pi.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;blockquote>
+&lt;p>网络连接存储设备（英语：Network Attached Storage，缩写：NAS）[1]，是一种专门的数据存储技术的名称，它可以直接连接在电脑网络上面，对异质网络用户提供了集中式数据访问服务。&lt;/p>&lt;/blockquote></description></item><item><title>OpenGL 画线</title><link>https://blog.ronething.cn/20171110-opengl.html</link><pubDate>Fri, 10 Nov 2017 19:11:18 +0000</pubDate><guid>https://blog.ronething.cn/20171110-opengl.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;pre tabindex="0">&lt;code>实验二：（2学时）
+一、实验目的：
+利用鼠标、键盘，菜单等方式对图元进行交互操作
+二、实验内容：
+1、用鼠标拖动画直线，线段终点始终跟随鼠标移动；
+2、使用菜单界面修改直线的颜色；
+3、利用键盘控制直线在屏幕上移动；
+三、实现效果及步骤（或流程）
+四、创新设计和实现方法
+&lt;/code>&lt;/pre></description></item><item><title>python 结合 pillow 模块生成照片墙</title><link>https://blog.ronething.cn/20171103-pillow.html</link><pubDate>Fri, 03 Nov 2017 15:11:48 +0000</pubDate><guid>https://blog.ronething.cn/20171103-pillow.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>想把 ins 小姐姐的图片生成照片墙？&lt;/p></description></item><item><title>OpenGL 开发环境配置</title><link>https://blog.ronething.cn/20170929-opengl.html</link><pubDate>Fri, 29 Sep 2017 19:03:46 +0000</pubDate><guid>https://blog.ronething.cn/20170929-opengl.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;blockquote>
+&lt;p>OpenGL（英语：Open Graphics Library，译名：开放图形库或者“开放式图形库”）是用于渲染2D、3D矢量图形的跨语言、跨平台的应用程序编程接口（API）。 —— 维基百科&lt;/p>&lt;/blockquote></description></item><item><title>windows 切换使用 python2 和 python3</title><link>https://blog.ronething.cn/20170927-python.html</link><pubDate>Wed, 27 Sep 2017 18:46:55 +0000</pubDate><guid>https://blog.ronething.cn/20170927-python.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;p>windows 下同时有 python2 和 3，如何使用。&lt;/p></description></item><item><title>github add SSH key</title><link>https://blog.ronething.cn/20170926-ssh.html</link><pubDate>Tue, 26 Sep 2017 13:43:09 +0000</pubDate><guid>https://blog.ronething.cn/20170926-ssh.html</guid><description>&lt;h2 id="0x00">0x00&lt;/h2>
+&lt;blockquote>
+&lt;p>Using the SSH protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without supplying your username or password at each visit.&lt;/p>&lt;/blockquote>
+&lt;p>每次 clone 私人项目或者 push 都要输入用户名密码？试试 ssh 吧。&lt;/p></description></item></channel></rss>

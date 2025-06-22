@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://blog.ronething.cn/sitemap.xml
+
+# Allow all RSS feeds
+Allow: /index.xml
+Allow: /posts/index.xml
+Allow: /tags/*/index.xml
