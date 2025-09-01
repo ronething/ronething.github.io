@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#1a1a1a"/>
+  
+  <!-- Shoe sole -->
+  <ellipse cx="16" cy="25" rx="13" ry="4" fill="#2d2d2d"/>
+  <ellipse cx="16" cy="24" rx="13" ry="4" fill="#ffffff"/>
+  
+  <!-- Shoe upper -->
+  <path d="M 5 24 Q 5 15 8 12 Q 12 8 16 8 Q 20 8 24 12 Q 27 15 27 24 Z" fill="#d73527"/>
+  
+  <!-- Shoe toe cap -->
+  <path d="M 8 24 Q 8 18 12 15 Q 14 13 16 13 Q 18 13 20 15 Q 24 18 24 24 Z" fill="#ffffff"/>
+  
+  <!-- Side stripe -->
+  <path d="M 6 20 Q 8 18 12 17 Q 16 16 20 17 Q 24 18 26 20 Q 24 22 20 21 Q 16 20 12 21 Q 8 22 6 20 Z" fill="#1a1a1a" stroke="#ffffff" stroke-width="0.5"/>
+  
+  <!-- Eyelets -->
+  <circle cx="12" cy="15" r="0.8" fill="#cccccc"/>
+  <circle cx="15" cy="14" r="0.8" fill="#cccccc"/>
+  <circle cx="17" cy="14" r="0.8" fill="#cccccc"/>
+  <circle cx="20" cy="15" r="0.8" fill="#cccccc"/>
+  
+  <!-- Laces -->
+  <path d="M 12 15 Q 14 13 16 13 Q 18 13 20 15" stroke="#ffffff" stroke-width="1" fill="none"/>
+  <path d="M 13 17 Q 15 15 16 15 Q 17 15 19 17" stroke="#ffffff" stroke-width="1" fill="none"/>
+</svg>
